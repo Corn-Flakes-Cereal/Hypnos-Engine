@@ -10,8 +10,8 @@ add_subdirectory ("Hypnos Engine")
 add_subdirectory ("glew")
 add_subdirectory ("glfw")
 
-target_include_directories (CMakeTarget PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/glfw/include)
+target_include_directories (HypnosEngine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/glfw/include)
 
-target_include_directories (CMakeTarget PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/glew/include)
+target_include_directories (HypnosEngine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/glew/include)
 
 
